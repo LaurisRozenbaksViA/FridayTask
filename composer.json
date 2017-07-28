@@ -1,0 +1,15 @@
+{
+    "name": "accenture/bootcamp",
+    "description": "Php bootcamp",
+    "type": "Project",
+    "require-dev": {
+        "solbianca/vardumper": "^1.0"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/routing": "^3.3"
+    },
+    "autoload": {
+        "psr-4":{ "PHPBootcamp\\" :"app/" }
+    }
+}
